@@ -3,8 +3,7 @@ import 'package:http/http.dart' as http;
 
 class ClaudeService {
   // Use the correct endpoint for news
-  static const String _apiUrl =
-      'https://newsapp-production-8806.up.railway.app/get_news';
+  static const String _apiUrl = 'https://newsapp-3p84.onrender.com';
 
   // Language mapping
   static const Map<String, String> _languageCodes = {
